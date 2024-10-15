@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items:center;
+    /*Color primario establecido del body*/
+    background-color: #84f7a7;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+
+nav{
+    display:flex;
+    gap:10px;
+    justify-content: flex-end;
+}
+
+.migas{
+    display: block;
+}
+
+@media (max-width: 767px){
+    /*Se redefine display para no mostrarlo en caso de estar mirandose en un aparato movil*/
+    .migas{
+        display: none;
+    }
+}

@@ -1,0 +1,222 @@
+/*Pablo Roces Perez UO294656*/
+/*
+background-> green blue #B4F8C8
+negro #000000
+
+*/
+/*Cambiar los pixeles a um para mayor accesibilidad*/
+
+/*Selector de tipo*/
+h1 {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 27.6px;
+    color: #000000;
+    /*background color heredado de body*/
+}
+
+/* De momento no hay h2
+h2 {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20.4px;
+    text-align: center;
+}
+*/
+
+h3 {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20.4px;
+    text-align: center;
+
+}
+
+h4{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20.4px;
+}
+
+pre {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+li{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+/*Color de fondo para los elementos en body*/
+body {
+    background-color: #B4F8C8;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    color: #000000;
+    /*background color heredado de body*/
+
+
+}
+
+nav{
+    /*background color heredado de body*/
+    color: #000000;
+    font-size: 17px;
+
+}
+
+main{
+    background-color: #E4FCEB;
+
+
+}
+
+a{
+    /*background color heredado de body*/
+    color:#000000;
+    text-decoration:none;
+    
+}
+
+
+a:hover{
+    /*background color heredado de body*/
+    color:#00661f;
+}
+
+
+header > p{
+    font-size: 12px;
+
+}
+
+
+/*Para elementos en listas no ordenadas- Se cambia el tipo de enumeracion*/
+
+ul > li {
+    list-style-type:lower-greek;
+    list-style-type:none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/*Para elementos de lista ordenada - Se cambia el espacio entre lineas/celdas */
+
+ol > li{
+    text-align: center;
+    list-style-position: inside;
+    padding: 6px;
+
+}
+
+/*Para la tabla anidada se ussan las modificaciones anteriores*/
+
+dt {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+dd{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+dd::before{
+    content: " • ";
+    font-size: 15px;
+}
+
+
+
+table{
+   margin:auto;
+   border-collapse: collapse;
+   
+
+}
+table > caption{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th{
+    font-weight: lighter;
+    border: 1px solid #000000;
+    padding: 5px;
+
+}
+
+video {
+    display: block;
+    width:50%;
+    height:auto;
+    margin: auto;
+   }
+
+img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+
+main{
+    background-color: #c7ffd8;
+    /*Redefinicion del color para hacerlos por apartados*/
+    /*color primer plano heredado de body*/
+}
+
+
+
+
+
+
+
+
